@@ -1,0 +1,131 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Six+Caps);
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.wrapper .topbar {
+    color: rgb(255, 255, 255);
+    background: rgb(26, 26, 26);
+    opacity: 95%;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 60px rgb(43, 43, 43);
+}
+
+.main_content {
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu';
+}
+
+.nav_links {
+    list-style: none;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Ubuntu';
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 35px;
+}
+
+.nav_links li a {
+    transition: all 0.3 ease 0s;
+    color: #dddddd
+}
+
+.nav_links li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.toptext {
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 95px;
+    padding-top: 35px;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.toptext2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 50px auto;
+    background: rgba(red, green, blue, 0);
+    color: rgb(255, 255, 255)
+}
+
+.container .box {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: rgb(51, 51, 51);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    opacity: 85%;
+}
+
+.container .box .content {
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+}
